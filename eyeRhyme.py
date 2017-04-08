@@ -1,3 +1,8 @@
+#Version : 2
+def eyeRhyme2(pairOfLines):
+    word1,word2 = pairOfLines.split("\t")
+    return word1[-3:0] == word2[-3:0]
+# Version : 1
 def eyeRhyme(pairOfLines):
     word_1 = pairOfLines.split("\t")[0]
     word_2 = pairOfLines.split("\t")[1]
